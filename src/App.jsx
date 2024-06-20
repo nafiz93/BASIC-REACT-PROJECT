@@ -88,6 +88,9 @@ function App() {
 
   // };
 
+  const getCreditTime = (time) => {
+    setCreditTime(prevTime => prevTime + time);
+  };
 
 
 
