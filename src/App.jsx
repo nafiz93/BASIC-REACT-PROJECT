@@ -93,7 +93,15 @@ function App() {
   };
 
 
+  const sendName = (course) => {
 
+    const updatedNames = [...names, course];
+    setNames(updatedNames);
+    //getPrice(course);
+    getCreditTime(course.credits);
+    setSelectedCourses(prevSelectedCourses => [...prevSelectedCourses, course.id]); // Add course ID to selectedCourses
+    addToLs(course.id, course.price);
+  };
 
 
 
