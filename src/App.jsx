@@ -63,6 +63,7 @@
 
 // export default App;
 
+import { useState, useEffect } from 'react';
 
 import './App.css';
 
@@ -70,7 +71,11 @@ import './App.css';
 function App() {
 
 
-
+  const [courses, setCourses] = useState([]);
+  const [names, setNames] = useState([]);
+  const [creditTime, setCreditTime] = useState(0);
+  const [price, setPrice] = useState(0);
+  const [selectedCourses, setSelectedCourses] = useState([]); // State to track selected courses
 
   // const getPrice = (course) => {
 
