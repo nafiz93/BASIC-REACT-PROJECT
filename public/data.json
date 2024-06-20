@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.postimg.cc/63Kxtqbq/img-1.jpg",
+        "title": "Introduction to C Programming",
+        "description": "Learn the fundamentals of C programming from basic syntax to advanced concepts.",
+        "price": "49.99",
+        "credit": "Instructor: John Doe",
+        "credits": 7
+    },
+    {
+        "id": 2,
+        "img": "https://i.postimg.cc/zvXmHMr1/img-2.jpg",
+        "title": "Advanced Java Programming",
+        "description": "Master the advanced features of Java, including multithreading, networking, and GUI development.",
+        "price": "79.99",
+        "credit": "Instructor: Jane Smith",
+        "credits": 9
+    },
+    {
+        "id": 3,
+        "img": "https://i.postimg.cc/43CrQngP/image-3.jpg",
+        "title": "Python for Data Science",
+        "description": "A comprehensive guide to using Python for data analysis, visualization, and machine learning.",
+        "price": "80",
+        "credit": "Instructor: Dr. Emily Clark",
+        "credits": 8
+    },
+    {
+        "id": 4,
+        "img": "https://i.postimg.cc/3R1VhBDf/img-4.jpg",
+        "title": "Web Development Bootcamp",
+        "description": "Become a full-stack web developer with this intensive bootcamp covering HTML, CSS, JavaScript, and more.",
+        "price": "149.99",
+        "credit": "Instructor: Mark Johnson",
+        "credits": 6
+    },
+    {
+        "id": 5,
+        "img": "https://i.postimg.cc/3Nw6xvX8/img-5.jpg",
+        "title": "Cybersecurity Essentials",
+        "description": "Learn the basics of cybersecurity, including threat analysis, risk management, and securing networks.",
+        "price": "89.99",
+        "credit": "Instructor: Sarah Lee",
+        "credits": 2
+    },
+    {
+        "id": 6,
+        "img": "https://i.postimg.cc/sfnq0Tzv/img-6.jpg",
+        "title": "Database Management with SQL",
+        "description": "An in-depth course on managing databases using SQL, covering queries, transactions, and database design.",
+        "price": "69.99",
+        "credit": "Instructor: Michael Brown",
+        "credits": 7
+    }
+]
