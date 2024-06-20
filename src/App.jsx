@@ -64,8 +64,12 @@
 // export default App;
 
 import { useState, useEffect } from 'react';
-
 import './App.css';
+import Courses from './components/courses/Courses';
+import Bookmark from './components/bookmark/Bookmark';
+import { addToLs, getItem } from './components/localStorage/ls';
+
+
 
 
 function App() {
