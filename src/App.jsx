@@ -103,11 +103,25 @@ function App() {
     addToLs(course.id, course.price);
   };
 
+  useEffect(() => {
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        setCourses(data);
+        const storedData = getItem();//|| { ids: [], totalPrice: 0 };
+        const storedCourses = storedData.ids.map(id => data.find(course => course.id == id));
+        const validStoredCourses = storedCourses.filter(course => course);
+        setNames(validStoredCourses);
+        setPrice(storedData.totalPrice);
+      });
+  }, []);
 
 
 
   return (
     <div className='md:flex bg-[#F3F3F3]'>
+      <Courses courses={courses} sendName={sendName} getCreditTime={getCreditTime} />
+      <Bookmark names={names} creditTime={creditTime} price={price} selectedCourses={selectedCourses} />
 
     </div>
   );
